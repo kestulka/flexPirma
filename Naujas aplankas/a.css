@@ -1,0 +1,39 @@
+.blokas, .blokas1, .blokas2, .blokas3, .blokas4, .blokas5{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+}
+.blokas1{
+    background-color: yellow;
+}
+.blokas2{
+    background-color: green;
+}
+.blokas3{
+    background-color: burlywood
+}
+.blokas4{
+    background-color: darkred;
+}
+.blokas5{
+    background-color: burlywood;
+}
+.konteineris1{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-height: 768px) {
+    .blokas1, .blokas2{
+        width: 160px;
+        height: 140px;
+        text-align: center;
+        display: inline-flex;
+    }
+    .blokas3, .blokas4, .blokas5{
+        width: 120px;
+        height: 80px;
+        text-align: center;
+        display: inline flex;
+    }
+}
